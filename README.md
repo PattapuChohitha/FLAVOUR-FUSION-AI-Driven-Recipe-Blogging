@@ -1,122 +1,152 @@
-# Flavour-Fusion-AI-Driven-Recipe-Blogging
-🍲 Flavour Fusion: AI-Driven Recipe Blogging
+# 🍲 Flavour Fusion — AI-Driven Recipe Blogging
 
-Flavour Fusion is an interactive AI-powered web application that generates engaging recipe blog posts using Google Gemini AI. Whether you're a food blogger, home cook, or student developer, this app helps you instantly create structured, creative, and ready-to-publish recipe content.
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-ff4b4b)
+![AI](https://img.shields.io/badge/AI-Gemini%201.5%20Flash-4285F4)
 
-Built with Python + Streamlit + Gemini 1.5 Flash, the application combines Generative AI with a clean user interface to simplify recipe blogging.
+**Flavour Fusion** is an AI-powered recipe blogging application that generates complete, structured, and engaging recipe posts using **Google Gemini 1.5 Flash**.
 
-🌐 Project Demo
+Designed for food bloggers, home cooks, and content creators, the app instantly produces ready-to-publish recipes with introductions, ingredients, and step-by-step instructions.
 
-🎥 Demo Video:
-https://drive.google.com/file/d/1Hz9EQJXTTLktwJt50uUEF7UBd7bYIDuV/view?usp=sharing
+---
 
-💻 GitHub Repository:
-https://github.com/PattapuChohitha/Flavour-Fusion-AI-Driven-Recipe-Blogging
+## 🎥 Project Demo
 
-✨ Features
-🤖 AI-Powered Recipe Generation
+🔗 **Demo Video:**
+[https://drive.google.com/file/d/1Hz9EQJXTTLktwJt50uUEF7UBd7bYIDuV/view?usp=sharing](https://drive.google.com/file/d/1Hz9EQJXTTLktwJt50uUEF7UBd7bYIDuV/view?usp=sharing)
 
-Generates complete recipe blog posts including:
+💻 **GitHub Repository:**
+[https://github.com/PattapuChohitha/Flavour-Fusion-AI-Driven-Recipe-Blogging](https://github.com/PattapuChohitha/Flavour-Fusion-AI-Driven-Recipe-Blogging)
 
-Catchy Title
+---
 
-Ingredients List
+## ✨ Key Features
 
-Step-by-Step Instructions
+### 🤖 AI Recipe Generation
 
-Engaging Introduction
+* Generates complete blog-style recipes
+* Includes:
 
-Powered by Gemini 1.5 Flash
+  * Catchy Title
+  * Ingredients List
+  * Cooking Instructions
+  * Engaging Introduction
 
-🎯 Customizable Output
+### 🎯 Customizable Output
 
-Enter any dish name or ingredient
-(e.g., “Paneer Butter Masala”, “Chocolate Lava Cake”)
+* Enter any dish or ingredient
+* Adjustable blog length (100–2000 words)
 
-Adjust blog length from 100 to 2000 words
+### 😄 Fun Experience
 
-😄 Fun Element
+* Displays random programming jokes while generating content
 
-Displays a random programming joke while the AI generates your recipe
+### 📥 Download Support
 
-📥 Download Option
+* Export recipes as Markdown (.md) files
 
-Save generated recipes as Markdown (.md) files
+### 🎨 Modern User Interface
 
-🎨 Modern UI
+* Clean and responsive Streamlit UI
+* Custom styling for better user experience
 
-Clean, responsive interface built using Streamlit
+---
 
-Custom styling for better user experience
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
+| Component | Technology              |
+| --------- | ----------------------- |
+| Frontend  | Streamlit               |
+| AI Model  | Google Gemini 1.5 Flash |
+| Language  | Python                  |
 
-Frontend: Streamlit
+---
 
-AI Model: Google Gemini (Gemini 1.5 Flash)
+## 🚀 Installation & Setup
 
-Programming Language: Python
+### 1️⃣ Clone Repository
 
-🚀 Installation & Setup
-1️⃣ Clone the Repository
+```bash
 git clone https://github.com/PattapuChohitha/Flavour-Fusion-AI-Driven-Recipe-Blogging.git
 cd Flavour-Fusion-AI-Driven-Recipe-Blogging
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
-Make sure Python is installed, then run:
-
+```bash
 pip install -r requirements.txt
+```
 
-🔑 API Configuration
+---
 
-This application requires a Google Gemini API key.
-
-Recommended Secure Setup:
-
-Get your API key from Google AI Studio
+## 🔑 API Configuration
 
 Create a file:
 
+```bash
 .streamlit/secrets.toml
+```
 
+Add your API key:
 
-Add your key:
-
+```toml
 GOOGLE_API_KEY = "your_api_key_here"
-
+```
 
 Update code to use:
 
+```python
 st.secrets["GOOGLE_API_KEY"]
+```
 
-💡 Usage
-▶️ Run the Application
+---
+
+## 💡 Usage
+
+### ▶️ Run Application
+
+```bash
 streamlit run app.py
+```
 
-🧑‍🍳 Generate a Recipe
+### 🧑‍🍳 Generate Recipe
 
-Enter a recipe topic
+1. Enter recipe topic
+2. Select word count
+3. Click **Generate Recipe**
+4. Wait for AI magic ✨
+5. Download your recipe
 
-Select desired word count
+---
 
-Click Generate Recipe
+## 📂 Project Structure
 
-Wait for AI magic ✨
-
-Download if you like it
-
-📂 Project Structure
+```
 Flavour-Fusion/
 │
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Dependencies
-├── README.md           # Documentation
+├── app.py
+├── requirements.txt
+├── README.md
+```
 
-👩‍💻 Developed By
+---
 
-Pattapu Chohitha
+## 👩‍💻 Developed By
 
-⭐ Acknowledgment
+**Pattapu. Chohitha**
 
-This project demonstrates the use of Generative AI for creative content generation and was built as part of an academic innovation project.
+
+## 🌟 Future Enhancements
+
+* Multi-language recipe generation
+* Image generation for dishes
+* Nutrition analysis
+* Voice input support
+* Blog publishing integration
+
+---
+
+## ⭐ Acknowledgment
+
+This project demonstrates the power of Generative AI in content creation and was developed as part of an academic innovation initiative.
+
